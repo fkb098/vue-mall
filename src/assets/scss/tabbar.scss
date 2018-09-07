@@ -1,0 +1,17 @@
+@import "mixins";
+
+.g-tabbar{
+  display: flex;//父容器写上flex
+  width: 100%;
+  height: $tabbar-height;
+
+  &-item{
+    flex: 1;
+    @include flex-center(column);
+
+    .iconfont{
+      margin-bottom: 4px;
+      font-size: $icon-font-size;
+    }
+  }
+}

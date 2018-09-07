@@ -1,3 +1,3 @@
 ﻿# vue-mall
-vue开发移动WebApp，“手机淘宝商城”
-hello world
+“手淘商城”
+vue开发移动WebApp
